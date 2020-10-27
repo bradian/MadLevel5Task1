@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/notePadFragment"
-        android:name="com.example.madlevel5task1.NotePadFragment"
+        android:name="com.example.madlevel5task1.ui.NotePadFragment"
         android:label="fragment_note_pad"
         tools:layout="@layout/fragment_note_pad" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addNoteFragment"
-        android:name="com.example.madlevel5task1.AddNoteFragment"
+        android:name="com.example.madlevel5task1.ui.AddNoteFragment"
         android:label="fragment_add_note"
         tools:layout="@layout/fragment_add_note" >
         <action
