@@ -3,6 +3,8 @@ package com.example.madlevel5task1.database
 import android.content.Context
 import androidx.lifecycle.LiveData
 import com.example.madlevel5task1.model.Note
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
 
 class NoteRepository(context: Context) {
 
